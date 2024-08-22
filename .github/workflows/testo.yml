@@ -1,4 +1,4 @@
-name: my third workflow
+name: AH Airflow
 on: push
 jobs:
   first_job:
