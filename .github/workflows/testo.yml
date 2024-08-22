@@ -1,0 +1,14 @@
+name: my second workflow
+on: push
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+
+      - name: welcome msg
+        run: echo "hello halawa"
+
+      - name: run scriptdragon
+        run: chmod +x ./scriptdragon.sh && ./scriptdragon.sh
