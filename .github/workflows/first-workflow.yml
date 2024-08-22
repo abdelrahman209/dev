@@ -1,0 +1,10 @@
+name: my first workflow
+on: 
+    push:
+jobs: 
+    hamada:
+      runs-on: ubuntu-latest
+      steps:
+        - name: welcome msg
+          run: echo"hello data engineer ya helw"
+      
